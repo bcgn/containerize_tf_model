@@ -9,7 +9,7 @@ run:
 
 # build Docker image
 docker-build:
-	docker build -t containerize_tf_model
+	docker build -t containerize_tf_model .
 
 # run application within Docker container
 docker-run:
